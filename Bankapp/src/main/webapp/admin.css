@@ -1,0 +1,168 @@
+body {
+    font-family: Wittgenstein;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container {
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+.sidebar {
+    width: 100px;
+    background-color: #4b0082;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    height: 100vh;
+}
+
+.logo img {
+    width: 50px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+    padding: 10px 0;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 20px;
+    background-color: #f4f6f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .welcome h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header .welcome p {
+    margin: 0;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+header .notifications {
+    position: relative;
+}
+
+header .notifications .notification-count {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    position: absolute;
+    top: -28px;
+    right: -10px;
+}
+
+#adimg{
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 600px;
+}
+
+
+.function {
+    font-family: Wittgenstein;
+    margin: 25px;
+    margin-top: 55px;
+    font-size: 25px;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid #ecf0f1;
+    background-color: #4b0082;
+    border-radius: 25px;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.function p{
+   padding-left: 100px;
+   color:#fff;
+
+
+
+}
+
+/* Popup container */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* Black background with transparency */
+}
+
+/* Popup content */
+.popup-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 10% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+}
+
+/* Close button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+

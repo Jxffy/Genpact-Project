@@ -1,0 +1,140 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 1200px; /* Increased width */
+    width: 100%;
+    height: 80vh; /* Adjust height */
+}
+
+
+.login-wrapper {
+    padding: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-header h1 {
+    font-size: 2.5em; /* Increased font size */
+    color: #4a4a4a;
+}
+
+.login-header p {
+    color: #7a7a7a;
+}
+
+.login-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.login-button {
+    background-color:#4b0082 ;
+    ;
+    color: #fff;
+    border: none;
+    padding: 15px 30px; /* Increased padding */
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em; /* Increased font size */
+}
+
+.login-button:hover {
+    background-color: #6400ac;
+}
+
+.login-form {
+    display: none;
+    text-align: center;
+}
+
+.login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #4a4a4a;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1em; /* Increased font size */
+}
+
+.login-form .forgot-password {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #357ab8;
+    text-decoration: none;
+}
+
+.submit-button {
+    background-color: #4b0082;
+    color: #fff;
+    border: none;
+    padding: 15px; /* Increased padding */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2em; /* Increased font size */
+}
+
+.submit-button:hover {
+    background-color: #6803af;
+}
+
+.signup {
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.signup a {
+    color: #357ab8;
+    text-decoration: none;
+}
+
+.illustration {
+    background-color: #f0f2f5;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.illustration img {
+    max-width: 100%;
+    height: auto;
+}
